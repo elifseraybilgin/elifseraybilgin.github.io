@@ -1,0 +1,463 @@
+@charset "utf-8";
+/* CSS Document */	
+body{
+	background:#FFFFFF;
+	width: 100%;
+	margin: 0;
+	font-size: 100%
+}
+header{
+	width: 100%;
+	height: 100%;
+	background:#FFFFFF;
+}
+header #baslik{
+	width: 100%;
+	height: 50%;
+	background:#FFFFFF;	
+	padding-top:70px ;
+}
+#baslikort{
+	height: 100%;
+	text-align:center;
+	font-family: disneyfontfam;
+	font-size: 4em;
+	color: rgb(199, 102, 118);
+	letter-spacing:3px;
+	word-spacing: 10px;
+	vertical-align:middle;
+	line-height: 100%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.navbar {
+	width: 100%;
+	background:#fff0ee;
+	margin-top: 25px;
+	border-width: 100%;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color: #E0B9B5;
+	position: fixed;	
+  } 
+.navbar img{
+	height: 40px;
+	width: 100px;
+	margin-top: -8px;
+	margin-bottom: -10px;
+	margin-right: -35px;
+} 
+.navbar ul{
+	padding-left: 1%;
+}
+.navbar a {
+	color: #6c757d;
+	text-align: center;
+	text-decoration: none;
+	font-size: large;
+	white-space: nowrap;
+  } 
+.navbar a:hover {
+	background-color: #FFFFFF;
+	color: #E0B9B5;
+  }
+.navbar li{
+	padding-left: 2%;
+  }
+.dropdown-item{
+	  padding-right: 40px;
+  }
+header #logo{
+	width: 13%;
+	height: 85px;
+	background: #cc6769;
+	float: left;
+	margin-left: 1%;
+	margin-top: -50px;
+}
+header #d4{
+	width: 100%;
+	height: 25px;
+	background:#E0B9B5;
+	position: fixed;
+}
+.container{
+	width: 90%;
+	height: 2772.8px;
+	z-index: -1;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.containeriletisim{
+	width: 90%;
+	height: 100%;
+	z-index: -1;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#sub-container{
+	width: 90%;
+	height: 2522.8px;
+	max-height: 100%;
+	z-index: -1;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #ECE7E9;
+}
+#duyuru{
+	width: 20%;
+	background-color: #ECE7E9;
+	float: right;
+	height: 50%;
+	z-index: -1;
+}
+#haber{
+	width: 20%;
+	background-color: #ECE7E9;
+	height: 50%;
+	z-index: -1;
+	float: right;
+}
+#sayfa{
+	width: 80%;
+	background-color: #ECE7E9;
+	height: 100%;
+	z-index: -1;
+	float: left;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+}
+@font-face{
+	font-family: disneyfontfam;
+	src: url("disneyfontfam.ttf");
+}
+#iletisim{
+	width: 90%;
+	height: 100%;
+	margin: 10px auto;
+	background-color:  #ECE7E9;
+	box-shadow: 0 10px 30px 0px  #ccc9ca;
+	padding: 30px;
+}
+#iletisim .title{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 50px;
+	line-height: 50px;
+	padding-bottom: 20px;
+	color: #E0B9B5;
+	background: linear-gradient(to right,#a78a87,#a78a87);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.iletisimformu .formalanı{
+	margin: 32px 0;
+}
+.iletisimformu .inputtext{
+	display: block;
+	width: 100%;
+	border-width: 0 0 2px 0;
+	border-color: rgb(196, 14, 44);
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	background-color: #ECE7E9;
+}
+.iletisimformu .inputtext1{
+	display: block;
+	width: 100%;
+	border-width: 0 0 2px 0;
+	border-color: rgb(196, 14, 44);
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	background-color: #ECE7E9;
+	padding-top: 6px;
+}
+.iletisimformu .formalanı1{
+	margin: 32px 0;
+	height: 150%;
+	width: 100%;
+}
+.iletisimformu .inputtext:focus{
+	outline: none;
+}
+.iletisimformu .inputtext1:focus{
+	outline: none;
+}
+.iletisimformu .label{
+	left: 50px;
+	bottom: 0px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color:rgb(196, 14, 44);
+	cursor: text;
+	transition: transform 0.2s ease-in-out;
+}
+.iletisimformu .select{
+	left: 50px;
+	bottom: 0px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color:rgb(196, 14, 44);
+	cursor:pointer;
+	transition: all 0.2s ease-in-out;
+}
+.iletisimformu .submit-btn{
+	display: inline-block;
+	float: right;
+	background-image: linear-gradient(125deg, #a78a87,#a78a87);
+	color: #fff0ee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+.iletisimformu .inputtext:focus + .label, .iletisimformu .inputtext.not-empty + .label{
+	transform: translateY(-55px);
+}
+.iletisimformu .inputtext1:focus + .select, .iletisimformu .inputtext1.not-empty + .select{
+	transform: translateY(-55px);
+}
+#footeralanı{
+	padding: 15px;
+	color: rgb(133, 69, 80);
+	width: 100%;
+	height: 100%;
+	background-color: #E0B9B5;
+	bottom: 0px;
+}
+.footersosyalmedya{
+	height: 50px;
+	padding:0;
+	margin-top:40px;
+	margin-left: 35%;
+	transform: translate(-50%,-50%);
+	display: flex;
+}
+.footersosyalmedya li{
+    list-style: none;
+}
+.footersosyalmedya  li .fa{
+    font-size:30px;
+    line-height: 40px;
+    transition: 6%;
+	color: #000;
+}
+.footersosyalmedya li a{
+	position: relative;
+    display: inline-block;
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#ECE7E9;
+    text-align: center;
+    transition: 6%;
+	box-shadow: 0 5px 4px rgba(0,0,0,.5);
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.footersosyalmedya  li a:hover{
+transform: translate(0,-19px);
+}
+.footersosyalmedya li .fa:hover{
+color: #fff;
+}
+.footersosyalmedya  li:nth-child(1) a:hover{
+   background-color: #3b5999;
+}
+.footersosyalmedya  li:nth-child(2) a:hover{
+   background-color: #55acee ;
+}
+.footersosyalmedya  li:nth-child(3) a:hover{
+   background-color: #e4405f;
+}
+.footersosyalmedya li:nth-child(4) a:hover{
+   background-color: #007785;
+}
+.single-footer h3{
+	font-weight:700;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.single-footer1 h3{
+	margin-left: 110px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.single-footer p{
+	font-weight:600;
+	color: #7e6a67;
+}
+.linkalanı li{
+	padding: 5px 5px 5px 0;
+	list-style: none;
+}
+.linkalanı li a{
+	color: #7e6a67;
+}
+.linkalanı label{	
+	padding: 0 5px 8px 0;
+	text-transform: capitalize;
+	color: #7e6a67;
+	text-decoration: underline;
+}
+.linkalanı label i{
+	margin-right: 10px;
+	color: #7e6a67;
+}
+.linkalanı li a i{
+	margin-right: 10px;
+	color: #7e6a67;
+}
+.linkalanı{
+	padding: 0;
+}
+.linkalanı1{
+	padding: 0;
+	margin-left: 110px;
+}
+.linkalanı1 li{
+	padding: 5px 5px 5px 0;
+	list-style: none;
+}
+.linkalanı1 li a{
+	color: #7e6a67;
+}
+.linkalanı1 label{	
+	padding: 0 5px 5px 0;
+	text-transform: capitalize;
+	color: #7e6a67;
+	text-decoration: underline;
+}
+.linkalanı1 label i{
+	margin-right: 10px;
+	color: #7e6a67;
+}
+.linkalanı1 li a i{
+	margin-right: 10px;
+	color: #7e6a67;
+}
+.copyalanı {
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+.copyalanı p{
+	font-weight: 600;
+	color:   rgb(88, 51, 57) ;
+}
+.alt-menu {
+	width:100%;
+    position:relative;
+    float:left;
+}
+#acilirmenu{
+	display: none;
+}
+#altmenu{
+	display:none;
+	margin-left: 50px;
+}
+#altmenu li{
+	list-style-type: circle;
+}
+#acilirmenu:checked + #altmenu{
+	display: block;
+}
+.headerlink1{
+float: right;
+margin-left: 20px;
+}
+.headerlink{
+	margin-left: 15px;
+}
+.headcont{
+	width: 100%;
+}
+#sertifika{
+	width: 90%;
+	height: 100%;
+	margin: 10px auto;
+	background-color:  #ECE7E9;
+	box-shadow: 0 10px 30px 0px  #ccc9ca;
+	padding: 30px;
+}
+#sertifika .title{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 30px;
+	line-height: 50px;
+	padding-bottom: 20px;
+	color: #E0B9B5;
+	background: linear-gradient(to right,#a78a87,#a78a87);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bolder;
+}
+#sertifika .denetci{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 40px;
+	line-height: 40px;
+	padding-bottom: 10px;
+	color: #E0B9B5;
+	background: linear-gradient(to right,#a78a87,#a78a87);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bolder;
+}
+.containersertifika{
+	width: 90%;
+	height: 100%;
+	z-index: -1;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.containercert{
+	margin: 32px 0;
+}
+.containercert p{
+	display: block;
+	width: 100%;
+	border-width: 0 0 2px 0;
+	border-color: rgb(196, 14, 44);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	background-color: #ECE7E9;
+	color:   #7e6a67;
+	text-indent: 20px;
+}
+.containercert img{
+	display: block;
+	width: 100%;
+	border: 8px ridge #f7cec9;
+	border-color:#f7cec9;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	background-color: #ECE7E9;
+}
+.containercert ul{
+	list-style-type: circle;
+	margin-left: 25px;
+	margin-top: 10px;
+	color:   rgb(128, 87, 94) ;
+	font-weight:normal;
+}
