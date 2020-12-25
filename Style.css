@@ -830,3 +830,37 @@ p .aduyuru:hover{
 video {
     object-fit: contain;
 }
+#videoindir{
+	margin-top: 70px;
+	margin-left: 46%;
+	background-image: linear-gradient(125deg, #a78a87,#a78a87);
+	color: #fff0ee;
+}
+#videoindir:hover{
+	background-image: linear-gradient(125deg,#fff0ee,#fff0ee);
+color:rgb(196, 14, 44);
+}
+#isovideoindir{
+	margin-left: 46%;
+	background-image: linear-gradient(125deg, #a78a87,#a78a87);
+	color: #fff0ee;
+}
+#isovideoindir:hover{
+	background-image: linear-gradient(125deg,#fff0ee,#fff0ee);
+color:rgb(196, 14, 44);
+}
+.containercert .isovideo{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	height: 100%;
+	box-shadow: 10px 10px 4px rgba(0,0,0,.5);
+	padding-top: -5px;
+	object-fit: contain;
+}
+.containercert .baslik{
+	font-size: 30px;
+	color: rgb(88, 51, 57) ;
+	text-align: center;
+	padding-bottom: 10px;
+}
