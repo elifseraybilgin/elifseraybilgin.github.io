@@ -38,7 +38,6 @@ function validate(){
     
     var Mail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
     var letters = /^[a-züöçğşıİÜĞÇŞÖ\s]+$/i;
-    var dogumt= new Date(dogumtarihi);
 
     if(ad.length < 3 || letters.test(ad)!=true){
       alert("Lütfen Adınızı Tam Olarak Giriniz / Rakam kullanmayınız!");
@@ -54,10 +53,6 @@ function validate(){
       }
     if(isNaN(tel) || tel.length != 11){
         alert("Lütfen Telefon Numaranızı Tam Olarak Giriniz / Harf Kullanmayınız!");
-      return false;
-    }
-    if(dogumtarihi.max=="01.12.2000"){
-      alert("Lütfen Doğum Tarihinizi Giriniz");
       return false;
     }
     if(sehirler.selectedIndex==""){
@@ -77,7 +72,15 @@ function validate(){
 
     var konusec=document.getElementById("konu").value;
     
-    window.location.href = "mailto:serayblgn@hotmail.com?cc=?subject=&body="+"Adı: "+ ad+"          "+"Soyadı: "+ soyad +"          "+"Telefon Numarası: "+ tel+"          "+"Mesajı: "+ mesaj;
+    window.location.href = "mailto:serayblgn@hotmail.com?cc=&subject=&body="+"Adı: "+ ad+"          "+"Soyadı: "+ soyad +"          "+"Mail adresi: "+ email+"          "+"Telefon Numarası: "+ tel+"          "+"Mesajı: "+ mesaj;
+
+    document.getElementById('ad').value = "";
+    document.getElementById('soyad').value = "";
+    document.getElementById('email').value = "";
+    document.getElementById('tel').value = "";
+    document.getElementById('sehirler').selectedIndex=0;
+    document.getElementById('konu').selectedIndex=0;
+    document.getElementById('mesaj').value = "";
   }
 
   var doc = new jsPDF();
